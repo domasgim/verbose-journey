@@ -127,7 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="mem.cpp" />
+    <ClCompile Include="proc.cpp" />
     <ClCompile Include="verbose-journey.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mem.h" />
+    <ClInclude Include="proc.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
