@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "verbose-journey", "verbose-journey.vcxproj", "{10C722AB-A963-42B7-A9D3-DEF266151EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Debug|x64.ActiveCfg = Debug|x64
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Debug|x64.Build.0 = Debug|x64
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Debug|x86.ActiveCfg = Debug|Win32
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Debug|x86.Build.0 = Debug|Win32
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Release|x64.ActiveCfg = Release|x64
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Release|x64.Build.0 = Release|x64
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Release|x86.ActiveCfg = Release|Win32
+		{10C722AB-A963-42B7-A9D3-DEF266151EB2}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDC27B40-3C49-4A16-966F-3CA026BA59FC}
+	EndGlobalSection
+EndGlobal
