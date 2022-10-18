@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "mem.h"
 
 void mem::PatchEx(BYTE* dst, BYTE* src, unsigned int size, HANDLE hProcess)

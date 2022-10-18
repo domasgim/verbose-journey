@@ -1,3 +1,4 @@
+#include "pch.h"
 #include "proc.h"
 
 DWORD GetProcId(const wchar_t* procName) {
