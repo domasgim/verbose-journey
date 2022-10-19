@@ -3,7 +3,10 @@
 
 void mem::PatchEx(BYTE* dst, BYTE* src, unsigned int size, HANDLE hProcess)
 {
+	// Old permission storage
 	DWORD oldprotect;
+
+	// Need to modify program permissions to let it r/w, standart security on windows
 	VirtualProtectEx(hProcess, dst, size, PAGE_EXECUTE_READWRITE, &oldprotect);
 	WriteProcessMemory(hProcess, dst, src, size, nullptr);
 	VirtualProtectEx(hProcess, dst, size, oldprotect, &oldprotect);
